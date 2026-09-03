@@ -1,0 +1,123 @@
+{
+  "SAModels": {
+    "Info": {
+      "ModelNames": [
+        "TshoRolpa_Flood_path_&_Risk_zone"
+      ],
+      "ModelTypes": [
+        "Suitability"
+      ]
+    },
+    "TshoRolpa_Flood_path_&_Risk_zone": {
+      "General": {
+        "Version": "2.0",
+        "ModelName": "TshoRolpa_Flood_path_&_Risk_zone",
+        "ModelType": "Suitability",
+        "CreateDate": "2026-08-30 6:07:27 PM",
+        "ModifyDate": "2026-08-30 6:07:27 PM",
+        "CriterionCount": 0,
+        "QueryCount": 0
+      },
+      "Control": {
+        "WeightByIndex": 0,
+        "ScaleIndex": 4,
+        "OutRaster": "",
+        "SummaryReport": ""
+      },
+      "Suitability": {
+        "CriteriaNames": [],
+        "XformNames": [],
+        "CriteriaURIs": [],
+        "TransformURIs": [],
+        "XmlDataConns": [],
+        "XmlXfmConns": [],
+        "WeightValues": [],
+        "MinWeights": [],
+        "MaxWeights": [],
+        "IsSelected": [],
+        "TransformCategory": [],
+        "TransformParameters": [],
+        "FromScale": 1.0,
+        "ToScale": 10.0
+      },
+      "Query": {
+        "QueryLayerName": [],
+        "QueryLayerXml": []
+      },
+      "Locate": {
+        "TotalArea": "",
+        "AreaUnits": "",
+        "OutRegionRaster": "",
+        "RegionCount": "",
+        "RegionShape": "",
+        "TradeOffPct": "",
+        "EvalMethod": "",
+        "RegionMinArea": "",
+        "RegionMaxArea": "",
+        "MaxDistBetRegions": "",
+        "MinDistBetRegions": "",
+        "DistanceUnits": "",
+        "ExistingRegions": "",
+        "NeighborGrowth": "",
+        "IslandsAllowed": "",
+        "SeedCount": "",
+        "ResolutionGrowth": "",
+        "SelectionMethod": ""
+      },
+      "Environments": {
+        "workspace": "",
+        "scratchWorkspace": ""
+      },
+      "SuitabilityEnvironments": {
+        "extent": "DEFAULT",
+        "cellSize": "MAXOF"
+      },
+      "LocateEnvironments": {
+        "extent": "DEFAULT",
+        "cellSize": "MAXOF"
+      },
+      "SourcesDataGroups": {
+        "LocalDataParams": [],
+        "ServiceDataParams": [],
+        "NoXFMDataParams": []
+      },
+      "Evaluate": {
+        "DefaultEvaluateTemplate": true,
+        "EvaluateLeftViewName": "",
+        "EvaluateRightViewName": "",
+        "EvaluateSuitabilityParameters": {
+          "SuitabilityMapState": "",
+          "LocateMapState": ""
+        },
+        "EvaluateLocateParameters": {
+          "LocateLayerName": "",
+          "LocateFullPath": ""
+        },
+        "EvaluateOverview": {
+          "SelectedOverviewExploreLayer": ""
+        },
+        "EvaluateCriteria": {
+          "SelectedCriteriaExploreStatistic": "",
+          "SelectedCriteriaInfluenceItem": "",
+          "SelectedCriteriaInfluenceStatistic": ""
+        },
+        "EvaluateSummarize": {
+          "SelectedSummarizeSuitabilityIndex": "",
+          "SelectedSummarizeCriteriaIndex": ""
+        },
+        "EvaluateValidate": {
+          "SelectedValidateSuitabilityIndex": "",
+          "SelectedValidateCriteriaIndex": ""
+        },
+        "EvaluateLocate": {
+          "SelectedLocateSuitabilityIndex": "",
+          "SelectedLocateCriteriaIndex": ""
+        }
+      },
+      "PairwiseWeighting": {
+        "PairwiseVariables": [],
+        "PairwiseComparisons": []
+      }
+    }
+  }
+}
